@@ -1,0 +1,292 @@
+<html>
+<html lang="en">
+    <head>
+        <title>Zomato</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+        <link href="index.css" rel="stylesheet" type="text/css"/>
+        
+        
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-light"></span>
+                  </button>
+                  <a class="brand">Get the app</a>
+                </div>
+          
+                <div class="collapse navbar-collapse" id="navbarNavDropdown" style="padding: 0 0 0 0; ">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Investor Relations</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Add restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Log in</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Sign up</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+          <div id="search">
+            <div class="carousel slide" id="carouselDiv" data-bs-ride="carousel">
+                <div class="carousel-inner" data-bs-interval="12000">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/black1.jpg" alt="background-image" class="bg-img "/>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/black7.jpg" alt="background-image" class="bg-img"/>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/black3.jpg" alt="background-image" class="bg-img"/>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/black9.jpg" alt="background-image"class="bg-img"/>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pos-must">
+              <div class="row logoDiv">
+                  <div class="col">
+                      <div id="logo">
+                          <span><b>zomato</b></span>
+                      </div>
+                  </div>
+              </div>
+              <div class="row headingDiv">
+                  <div class="col">
+                      <div id="heading">
+                        <b>Discover the best-food & drinks in Bangalore</b>
+                      </div>
+                  </div>
+              </div>
+              <div class="row dropdownDiv">
+                  <div class="col-12 col-md-5">
+                          <select id="dropdown">
+                              <option>----SELECT YOUR CITY----</option>
+                              <option>Indiranagar</option>
+                              <option>Marathahalli</option>
+                              <option>Whitefield</option>
+                              <option>Koramangala 5th Block</option>
+                              <option>HSR</option>
+                              <option>Jayanagar</option>
+                              <option>JP Nagar</option>
+                              <option>Sarjapur Road</option>
+                          </select>
+                  </div>
+                  <div class="col-12 col-md-5 offset-md-1">
+                          <select id="restaurants">
+                              <option>----SELECT YOUR RESTAURANTS----</option>
+                              <option>Chai Days</option>
+                              <option>NH8</option>
+                              <option>Barbeque Nation</option>
+                              <option>Empire Restaurant</option>
+                              <option>Mavalli Tiffin Room (MTR)</option>
+                              <option>Burger Seigneur</option>
+                              <option>ARAKU Coffee</option>
+                              <option>Third Wave Coffee</option>
+                          </select>
+                  </div>                    
+              </div>
+          </div> 
+      </div>
+      <div id="quickSearch">
+        <span id="quickHeading">Quick Search</span>
+        <span id="quickSubHeading">Find Restaurants By MealType</span>
+        <div id="main">
+            <div class="tileContainer">
+                <div class="tileComponent1">
+                    <img src="https://i.ibb.co/ZY9ttvD/dinner.png" alt="dinner">
+                </div>
+                <div class="tileComponent2">
+                    <div class="componentHeading">
+                        <a href="#" class="text-decoration-none">Dinner</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Dinner Near You
+                    </div>
+                    <p>Enjoy the day!</p>
+                </div>
+            </div>
+            <div class="tileContainer">
+                <div class="tileComponent1">
+                    <img src="https://i.ibb.co/8rPxkWP/lunch.jpg" alt="lunch"/>
+                </div>
+                <div class="tileComponent2">
+                    <div class="componentHeading">
+                        <a href="#" class="text-decoration-none">Lunch</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Lunch Near You
+                    </div>
+                    <p>Enjoy the day!</p>
+                </div>
+            </div>
+            <div class="tileContainer">
+                <div class="tileComponent1">
+                    <img src="https://i.ibb.co/q1fC2jW/nightlife.jpg" alt="nightlife"/>
+                </div>
+                <div class="tileComponent2">
+                    <div class="componentHeading">
+                        <a href="#" class="text-decoration-none">NightLife</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For NightLife Near You
+                    </div>
+                    <p>Enjoy the day!</p>
+                </div>
+            </div>
+            <div class="tileContainer">
+                <div class="tileComponent1">
+                    <img src="https://i.ibb.co/wchCHfb/snacks.jpg" alt="snacks"/>
+                </div>
+                <div class="tileComponent2">
+                    <div class="componentHeading">
+                        <a href="#" class="text-decoration-none">Snacks</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Snacks Near You
+                    </div>
+                    <p>Enjoy the day!</p>
+                </div>
+            </div>
+            <div class="tileContainer">
+                <div class="tileComponent1">
+                    <img src="https://i.ibb.co/YR0S6fV/drinks.jpg" alt="drinks"/>
+                </div>
+                <div class="tileComponent2">
+                    <div class="componentHeading">
+                        <a href="#" class="text-decoration-none">Drinks</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Drinks Near You
+                    </div>
+                    <p>Enjoy the day!</p>
+                </div>
+            </div>
+            <div class="tileContainer">
+                <div class="tileComponent1">
+                    <img src="https://i.ibb.co/FVhSTWK/breakfast.jpg" alt="breakfast"/>
+                </div>
+                <div class="tileComponent2">
+                    <div class="componentHeading">
+                        <a href="#" class="text-decoration-none">BreakFast</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For BreakFast Near You
+                    </div>
+                    <p>Enjoy the day!</p>
+                </div>
+            </div>
+            <div class="tileContainer">
+                <div class="tileComponent1">
+                    <img src="images/deserts.jpg" alt="Dessert"/>
+                </div>
+                <div class="tileComponent2">
+                    <div class="componentHeading">
+                        <a href="#" class="text-decoration-none">Dessert</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Dessert Near You
+                    </div>
+                    <p>Enjoy the day!</p>
+                </div>
+            </div>
+            <div class="tileContainer">
+                <div class="tileComponent1">
+                    <img src="images/pizza.jpg" alt="Pizza"/>
+                </div>
+                <div class="tileComponent2">
+                    <div class="componentHeading">
+                        <a href="#" class="text-decoration-none">Pizza</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Pizza Near You
+                    </div>
+                    <p>Enjoy the day!</p>
+                </div>
+            </div>
+            <div class="tileContainer">
+                <div class="tileComponent1">
+                    <img src="images/coffee.jpg" alt="Coffee"/>
+                </div>
+                <div class="tileComponent2">
+                    <div class="componentHeading">
+                        <a href="#" class="text-decoration-none">Coffee</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Coffee Near You
+                    </div>
+                    <p>Enjoy the day!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="upper-section">
+            <span><b>zomato</b></span>
+        </div>
+        <div class="lower-section">
+          <div class="left">
+            <ul>
+              <h5>About zomato</h5>
+              <li><a href="#" class="text-decoration-none">Who we are</a></li>
+              <li><a href="#" class="text-decoration-none">blog</a></li>
+              <li><a href="#" class="text-decoration-none">work with us</a></li>
+              <li><a href="#" class="text-decoration-none">investor relation</a></li>
+              <li><a href="#" class="text-decoration-none">report fraud</a></li>
+              <li><a href="#" class="text-decoration-none">contact us</a></li>
+            </ul>
+
+            <ul>
+              <h5>ZOMAVERSE</h5>
+              <li><a href="#" class="text-decoration-none">Zomato</a></li>
+              <li><a href="#" class="text-decoration-none">feeding india</a></li>
+              <li><a href="#" class="text-decoration-none">hyperpure</a></li>
+              <li><a href="#" class="text-decoration-none">zomaland</a></li>
+            </ul>
+
+            <ul>
+              <h5>FOR RESTAURANTS</h5>
+              <li><a href="" class="text-decoration-none">Partner with us</a></li>
+              <li><a href="" class="text-decoration-none">Apps for you</a></li>
+              <h5 class="work" class="text-decoration-none">FOR ENTERPRISES</h5>
+              <li><a href="" class="text-decoration-none">zomato for work</a></li>
+            </ul>
+
+            <ul>
+              <h5>LEARN MORE</h5>
+              <li><a href="#" class="text-decoration-none">Privacy</a></li>
+              <li><a href="#" class="text-decoration-none">security</a></li>
+              <li><a href="#" class="text-decoration-none">terms</a></li>
+              <li><a href="#" class="text-decoration-none">sitemap</a></li>
+
+            </ul>
+          </div>
+          
+        </div>
+        <hr/> 
+        <div class="copyright">
+            <p>&copy 2022 Developer Sri </p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </body>
+</html>

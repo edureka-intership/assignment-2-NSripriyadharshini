@@ -1,0 +1,256 @@
+body{
+    margin:auto
+}
+header{
+    position: relative;
+}
+nav{
+    font-size: 18px;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: black;
+    }
+
+.nav-cos{
+    background-color: transparent;
+}
+.navbar-expand-lg {
+    background-color: rgba(235, 233, 233, 0.332) !important;
+    position: absolute;
+}
+.navbar{
+    /* background-color:trans !important; */
+    /* position: absolute !important; */
+}
+.brand{
+    font-size: 18px;
+    margin: 0 0 0 5%;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color:white;
+}
+.navbar-collapse{
+    width: 100%;
+    margin: 0 4% 0 0;
+    justify-content: space-around;
+}
+.nav-item{
+    margin: 0 5px 0 0;
+}  
+#search{
+    height:500px;
+    position:relative;
+    background-size:100% 400px;
+    
+}
+.bg-img{
+    object-fit: cover;
+    width:100%;
+    height:500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% ;
+}
+
+#logo >span{
+    margin-left:25%;
+    margin-top:0%;
+    position:absolute; 
+    color:white;
+    font-size:100px;
+}
+
+.pos-must{
+    position: absolute;
+    top: 15%;
+    left : 20%;
+    width:75%;
+    display: inline-block;
+}
+.pos-must row{
+    display: inline-block;
+    width:100%;
+}
+.headingDiv{
+    
+    position: absolute;
+    top: 160px;
+    left: 8%;
+    color:white;
+    font-size: 30px;
+}
+.dropdownDiv{
+    position: absolute;
+    top: 255px;
+    left:15%;
+    
+}
+#quickSearch{
+    width:80%;
+    /* border:2px solid orange; */
+    margin-left:10%;
+    margin-top:2%;
+    display: inline-block;
+}
+
+#quickHeading{
+    display:block;
+    font-size:30px;
+    margin-left:2%;
+    color:#3b2632;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#quickHeading:hover{
+    font-size:40px;
+}
+#quickSubHeading{
+    display:block;
+    font-size:20px;
+    margin-left:2%;
+    color:gray;
+    line-height: 2;
+}
+
+.tileContainer{
+    width:30%;
+    height:180px;
+    box-shadow: 10px 20px 15px #3b2632;
+    float:left;
+    margin-top:2%;
+    margin-left:2%;
+    animation:dance 10s infinite
+}
+.tileContainer:hover{
+    /* transform:scale(1.1) */
+    /* transform:skewY(40deg) */
+    /* transform:rotate(50deg) */
+    /* transform:translate(100px, 100px) */
+    transform:scale(1.1)
+}
+
+.tileComponent1{
+    width: 50%;
+    height:180px;
+    float:left
+}
+
+.tileComponent1 > img{
+    width:100%;
+    height:100%
+}
+.tileComponent2{
+    width: 45%;
+    float:left;
+    margin-left:5%;
+    margin-top:15%
+}
+
+.componentHeading > a{
+    color: #3b2632;
+    font-size:25px;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:15px;
+}
+.footer{
+    margin: 60px 0 0 0;
+    height: 450px;
+    background-color: #f8f8f8;
+}
+.footer .upper-section{
+    font-size:38px;
+    height: 20%;
+    padding: 2% 0 3% 33;
+}
+.footer .lower-section{
+    display: flex;
+    color:grey;
+}
+.footer .lower-section ul li {
+    list-style: none;  
+    margin: 0 0 0 1%; 
+    color: black;
+    padding: 5px 0;
+
+}
+.footer .lower-section .left{
+    display: flex;    
+    width: 75%;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.footer .lower-section .left .work{
+    margin: 10% 0 1% 0;
+}
+.copyright{
+    text-align: center;
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(201, 240, 182)
+    }
+    .tileContainer{
+        width:45%;
+    }
+    #heading{
+        margin-top:20%;
+        margin-left: 23%;
+    }
+    #dropdown {
+        width: 65%;
+        margin-left: 21%;
+        margin-top: 28%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:rgb(240, 242, 187)
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(237, 196, 176)
+    }
+    .tileContainer{
+        width:100%;
+    }
+    #dropdown {
+        width: 70%;
+        margin-left: 23%;
+        margin-top: 33%;
+    }
+    #heading {
+        font-size: 55px;
+        margin-top: 24%;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(156, 240, 197)
+    }
+    #logo{
+        margin-left: 30%;
+    }
+    #heading {
+        font-size: 40px;
+        margin-top: 32%;
+        margin-left: 5%;
+    }
+    #dropdown {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 50%;
+    }
+}
+
